@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	background-color: rgb(35, 31, 31);
+}
+
+#fondo {
+	display: inline-block;
+	background-image: url('../img/black_bg.jpg');
+	background-size: contain;
+	width: 600px;
+	height: 500px;
+}
+
+#ocean {
+	display: inline-block;
+	background-image: url('../img/ocean.gif');
+	background-size: contain;
+	width: 854px;
+	height: 555px;
+	background-color: none;
+	background-color: rgb(35, 31, 31);
+}
+
+#player {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: none;
+	background-image: url('../img/player.png');
+	background-size: contain;
+	position: absolute;
+	left: 400px;
+	top: 480px;
+}
+
+.enemy {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: none;
+	background-image: url('../img/enemy.png');
+	background-size: contain;
+	position: absolute;
+	left: 440px;
+	top: 280px;
+}
+
+.alien {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: none;
+	background-image: url('../img/alien.png');
+	background-size: contain;
+	position: absolute;
+	left: 400px;
+	top: 40px;
+}
+
+.bala {
+	width: 40px;
+	height: 40px;
+	background: none;
+	background-image: url('../img/ninja.gif');
+	background-size: contain;
+	position: absolute;
+	transform: rotate(270deg) scale(0.3);
+}
+
+footer {
+	text-align: center;
+	color: white;
+}
+
+.tablero div {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 20px;
+}
